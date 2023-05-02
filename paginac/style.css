@@ -1,0 +1,23 @@
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 5px;
+}
+
+.pagination a {
+    padding: 8px 16px;
+    text-decoration: none;
+    color: blue;
+    display: inline-block;
+}
+
+.pagination a.active {
+    color: white;
+    background-color: blue;
+}
